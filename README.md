@@ -1,2 +1,2 @@
-# MEDICINE-STRIP
-Me
+# MEDICINE-STRIP(major project)
+
