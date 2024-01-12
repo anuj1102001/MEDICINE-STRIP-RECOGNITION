@@ -1,0 +1,2 @@
+# MEDICINE-STRIP
+Me
