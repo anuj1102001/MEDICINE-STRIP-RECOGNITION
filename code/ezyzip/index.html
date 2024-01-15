@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Strip Recognition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Medicine Strip Recognition</h1>
+
+        <div class="info">
+            <p>Welcome to our Medicine Strip Recognition application. This tool uses a deep learning model to identify medicines based on their packaging.</p>
+            <p>Upload an image or capture one using your camera to get started.</p>
+        </div>
+
+        <div class="actions">
+            <input type="file" id="imageInput" accept="image/*">
+            <button onclick="uploadImage()">Upload Image</button>
+            <button onclick="captureImage()">Capture from Camera</button>
+        </div>
+
+        <div id="output-container">
+            <h2>Recognition Result</h2>
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
