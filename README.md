@@ -31,7 +31,7 @@ Point `train_dir` and `validation_dir` at your own image folders (one sub-folder
 
 ## Limitations
 
-- The image dataset isn't included in this repository, and the notebook has no saved outputs, so accuracy can't be reproduced from the repository alone.
+- Only part of the dataset is published: the [`dataset`](https://github.com/anuj1102001/MEDICINE-STRIP-RECOGNITION/tree/dataset) branch has 100 photos covering 7 of the 17 medicines. The notebook has no saved outputs, so accuracy can't be reproduced from the repository alone.
 - The front-end is a mock-up: its buttons show a placeholder result and aren't connected to the model.
 - The notebook uses absolute local paths from the original training machine.
 
